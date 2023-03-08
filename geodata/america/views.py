@@ -8,10 +8,10 @@ def index(request):
     return render(request, 'index.html')
 
 def index_america(resquest):
-    return render(resquest, 'america.html')
+    return render(resquest, 'index_america.html')
 
 def brasil(request):
     return render(request, 'brasil.html')
 
 def canada(request):
-    return render(request, 'canada.htmls')
+    return render(request, 'canada.html')

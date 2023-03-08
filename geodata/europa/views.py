@@ -5,10 +5,10 @@ from django.http import HttpResponse
 
 
 def index_europa(resquest):
-    return render(resquest, 'europa.html')
+    return render(resquest, 'index_europa.html')
 
 def italia(request):
-    return render(request, 'franca.html')
+    return render(request, 'italia.html')
 
 def franca(request):
     return render(request, 'franca.html')
