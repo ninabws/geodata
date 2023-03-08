@@ -1,0 +1,17 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+# Create your views here.
+
+
+
+def index(request):
+    return render(request, 'index.html')
+
+def index_america(resquest):
+    return render(resquest, 'america.html')
+
+def brasil(request):
+    return render(request, 'brasil.html')
+
+def canada(request):
+    return render(request, 'canada.htmls')
